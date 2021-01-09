@@ -1,0 +1,222 @@
+body{
+    position: relative;
+    width: 1366px;
+    height: 3876px;
+    margin: auto;
+    background: white;
+    box-sizing: border-box;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.MainHeader{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    
+}
+
+.MainMenu{
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+}
+.MainMenu ul{
+    display:flex;
+    justify-content: space-around;
+    list-style-type: none;
+    width: 25%;
+}
+.MainMenu a{
+    text-decoration: none;
+}
+.MainHeader img{
+    width: 40px;
+    height: 40px;
+}
+.MainHeader div{  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Introduction{
+    background: linear-gradient(253.6deg, #98D0FC 2.46%, #3481D7 93.24%);
+    display: flex;
+    justify-content: center;
+}
+.Introduction div{
+    color: white;
+    width: 55%;
+    text-align: center;
+    margin: 50px;
+}
+
+.Search{
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+}
+.Search input{
+    width: 70%;
+    height: 40px;
+    background-color: rgb(243, 242, 242);
+    border-radius: 10px;
+}
+.MainTittle{
+    padding-left: 235px;
+    color: #356EAD;
+}
+
+.Popular{
+    display: flex;
+    justify-content: center;
+}
+
+.FirstArticle{
+    width: 355px;
+    margin-right: 8px;
+}
+.FirstArticle h2,p{
+    text-align: left;
+}
+.FirstArticle h2{
+    color: #1F3F68;
+}
+.FirstArticleIMG img{
+    width: 540px;
+    height: 380px;
+}
+.FooterStyle{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #1F3F68;
+}
+.IconFooter img{
+    width: 30px;
+    height: 30px;
+}
+.Content{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.Article2, .Article3, .Article4{
+    width: 22%;
+    margin:4px;
+}
+.ArticleImages{
+    width: 294px;
+    height: 200px;
+}
+.PopularFooter{
+    color: #356EAD;
+    display: flex;
+    justify-content: flex-end;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+.ArticleListMain{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.ArticleList1, .ArticleList2, .ArticleList3, .ArticleList4, .ArticleList5{
+    width: 68%;
+    display: flex;
+    margin-bottom: 10px;
+}
+.ArticleImg{
+    width: 40%;
+    display: flex;
+    align-items: center;
+    margin-right: 15px;
+}
+.ArticleListImg{
+    width: 300px;
+    height: 200px;
+}
+.ArticleText{
+    margin-top: 8px;
+    color: #1F3F68;
+}
+.ArticleTittle{
+    padding-left: 219px;
+    color: #356EAD;
+    margin-top: 70px;
+    margin-bottom: 40px;
+}
+.ArticleListFooter{
+    display: flex;
+    width: 68%;
+    justify-content: space-between;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+.ArticleListFooter a{
+    text-decoration: none;
+}
+.Work{
+    display: flex;
+    height: 400px;
+}
+.WorkPart1{
+width: 50%;
+background: #316099;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.WorkWith{
+    width: 60%;
+    color: white;
+}
+.WorkWith p{
+    opacity: 70%;
+}
+.WorkWith h2{
+    font-size: 35px;
+}
+.WorkPart2{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    background: #316099;
+    border-radius: 0px 200px 0px 0px;
+}
+
+.WorkPart2 button{
+    width: 220px;
+    height: 56px;
+    background: #5A98D0;
+    border-radius: 10px;
+    color: white;
+    font-size: 16px;
+}
+
+.FooterPage{
+    display: flex;
+    height: 400px;
+    background: #316099;
+    justify-content: space-around;
+    align-items: center;
+}
+.Footer1,.Footer2,.Footer3{
+    width:20%;
+    letter-spacing: 0.05em;
+    line-height: 40px;
+    color: white;
+    margin-left: 80px;
+}
+.Footer1,.Footer2,.Footer3, ul{
+    list-style-type: none;
+    padding: 0;
+}
+.FooterIcon img{
+    height: 40px;
+    width: 40px;
+}
+.FooterIcon {
+    display: flex;
+    align-items: center;
+}
